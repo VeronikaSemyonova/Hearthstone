@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79B0AEBB-EC11-44DC-A6E8-38CD4868DAA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Статистика.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Статистика.Designer.cs">
+      <DependentUpon>Статистика.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Выбрать колоду.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Выбрать колоду.Designer.cs">
+      <DependentUpon>Выбрать колоду.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Добавить результат.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавить результат.Designer.cs">
+      <DependentUpon>Добавить результат.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Авторизация.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Авторизация.Designer.cs">
+      <DependentUpon>Авторизация.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Регистрация.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Регистрация.Designer.cs">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Меню.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Меню.Designer.cs">
+      <DependentUpon>Меню.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Создать колоду.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Создать колоду.Designer.cs">
+      <DependentUpon>Создать колоду.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Редактировать.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Редактировать.Designer.cs">
+      <DependentUpon>Редактировать.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Статистика.resx">
+      <DependentUpon>Статистика.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Выбрать колоду.resx">
+      <DependentUpon>Выбрать колоду.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Авторизация.resx">
+      <DependentUpon>Авторизация.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавить результат.resx">
+      <DependentUpon>Добавить результат.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Регистрация.resx">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Меню.resx">
+      <DependentUpon>Меню.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Редактировать.resx">
+      <DependentUpon>Редактировать.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Создать колоду.resx">
+      <DependentUpon>Создать колоду.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearthstone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\воин.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\друид.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Жрец.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\маг.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Охотник.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\паладин.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Разбойник.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Чернокнижник.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\шаман.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearthstone1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
