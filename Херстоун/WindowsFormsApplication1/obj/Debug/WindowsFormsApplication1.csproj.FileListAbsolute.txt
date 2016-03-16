@@ -37,3 +37,9 @@ C:\Users\User_PS\Documents\Visual Studio 2013\Projects\С#\Херстоун\Wind
 C:\Users\User_PS\Documents\Visual Studio 2013\Projects\С#\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 C:\Users\User_PS\Documents\Visual Studio 2013\Projects\С#\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\User_PS\Documents\Visual Studio 2013\Projects\С#\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Статистика.resources
+G:\Херстоун\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Херстоун\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Херстоун\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

@@ -27,16 +27,6 @@ namespace WindowsFormsApplication1
             pictureBox10.BackColor = Color.Transparent;
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox10_Click(object sender, EventArgs e)
         {
             Авторизация Menu = new Авторизация();
@@ -44,68 +34,58 @@ namespace WindowsFormsApplication1
             Menu.Show();
         }
 
-        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.друид;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.Охотник;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.маг;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.паладин;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.Жрец;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.Разбойник;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.шаман;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.Чернокнижник;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = WindowsFormsApplication1.Properties.Resources.воин;
-            this.BackgroundImageLayout = ImageLayout.Zoom;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void pictureBox10_Click_1(object sender, EventArgs e)
